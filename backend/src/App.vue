@@ -1,20 +1,18 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import { ref, computed } from 'vue';
+import store from './store';
+
+const test = computed(() => store.state.test)
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-    
-    <h1 class="text-3xl font-bold underline">
-    Hello world!
-    </h1>
-  </div>
+  <div >
+    {{ test }}
+    <p class="bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-5xl font-extrabold text-transparent ...">
+  Hello world
+  </p>
+</div>
 </template>
 
 <style scoped>
