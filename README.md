@@ -13,10 +13,9 @@ Este repositório contém o código-fonte de um e-commerce desenvolvido com [tec
 ## 🏗 Tecnologias Utilizadas
 
 - Backend: Laravel
-- Frontend: Vue.js / React
+- Frontend: Vue.js
 - Banco de Dados: MySQL / PostgreSQL
-- Autenticação: Laravel Sanctum / JWT
-- Pagamentos: Stripe / PayPal
+- Autenticação: Laravel/ JWT
 
 ## 📌 Requisitos
 
